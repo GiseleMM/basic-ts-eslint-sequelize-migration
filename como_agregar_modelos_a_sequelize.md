@@ -50,7 +50,7 @@ import { Sequelize } from "sequelize-typescript";
 import { User } from "./models/user.model";
 
 export const sequelize = new Sequelize(
-  "mysql://testbd_2026_memberfix:6d069498c63b13d1ce726d4d99ff305ff1ad289e@cfximh.h.filess.io:3307/testbd_2026_memberfix"
+  "uri"
 );
 
 sequelize.addModels([User]); // 👈 aquí
